@@ -1029,7 +1029,7 @@ public class ResourceConverter {
 			// TODO: log? No recovery.
 		}
 
-		return null;
+		return new HashMap<>();
 	}
 
 	private ObjectNode addIncludedSection(ObjectNode rootNode, Map<String, ObjectNode> includedDataMap) {
